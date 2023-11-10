@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+ body{
+     margin: 0;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 172, 186);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.logo{
+    flex: 20%;
+    text-align: center;
+    }
+    .logo h1{
+        font-family: Arial, Helvetica, sans-serif;color: white;
+        font-size: 30px;
+        }
+        .menu{
+            flex: 70%;
+            text-align: right;
+            padding: 20px;
+        }
+        .menu a{
+            color: rgb(92, 35, 96);
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px 16px;
+            }
+            .menu a:hover{
+                color: pink;
+                border-top: 4px solid yellow;
+                }
+                .menu a:hover{
+                    color: pink;
+                    border-top: 4px solid yellow;
+                    }
+                    #botao:hover{
+                        border: none;
+                        background: gray;
+                        color: white
+                        }
+                        section{
+                            margin-top: 10px;
+                            margin-left: 5%;
+                            margin-right: 5%;
+                            padding: 5%;
+                            text-align: center;
+                            width: 90%; 
+                        }
+                        section h2{
+                            width: 100%;
+                            font-size: 50px;
+                            margin: 0; 
+                        }
+                        section h3{
+                            margin: 0;
+                            font-size: 20px; 
+                        }
+                        .card{
+                            display: inline-block;
+                            width: 300px;
+                            height: 300px;
+                            padding: 20px;
+                            margin: 1%;
+                            border: 1px solid rgb(172, 32, 232); 
+                        }
+                        .preco{
+                            font-size: 20px;
+                            color: rgb(98, 74, 109); 
+                        }
+                        .botaosobre{
+                            background:rgb(220, 169, 255);
+                            padding: 10px;
+                            color: rgb(from color r g b);
+                            text-decoration: none; 
+                        }
+                        .botaosobre:hover{
+                            background: rgb(151, 108, 179); }
+                            
+            
